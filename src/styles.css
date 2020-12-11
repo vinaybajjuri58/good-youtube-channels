@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+.App {
+  font-family: "Cabin", sans-serif;
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+#genere-list {
+  list-style: none;
+}
+#genere-list li {
+  display: inline;
+  padding: 0.4rem;
+  border: 0.75px black solid;
+  margin: 0.4rem;
+  border-radius: 0.7rem;
+  background-color: lightcyan;
+  cursor: pointer;
+}
+#channel-list {
+  list-style: none;
+  text-align: center;
+  padding: 1rem;
+}
+#channel-list li {
+  border: 1px burlywood solid;
+  margin: 1rem 0rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: left;
+  font-size: medium;
+}
+#subs-count {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
